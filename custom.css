@@ -1,0 +1,20 @@
+ h2{width: 319px; border-bottom: 1px solid #dddddd; position: relative;}
+ .heading{position: absolute; font-size: 21px; background-color: #ffff; padding: 11px; top: 0; color: #2f602f;}
+.box-container{display: flex; justify-content: center;}
+.box{height:125px ;  background-color: #f1f1f1; padding:0 20px; margin-bottom: 11px; border: 2px solid #dddddd;; text-align: center; line-height: 75px;   transition: all 0.3s ease-in-out; overflow: hidden;}
+.box:hover{background-color: #c4e7c4; border: 2px solid #5d9b5d;}
+.box .show-full{display: none;}
+.price-box{display: flex; justify-content:space-around;}
+.form-box{padding: 20px; text-align: center; line-height: 50px; }
+.form-box .price{position: relative; top: 20px; left: -38px;}
+.size-box{display: flex; justify-content: flex-start; position: relative;}
+.size-box .size{position: absolute; top: -16px; left: 40px;}
+.size-box .color{position: absolute; top: -16px; left: 110px;}
+#Shipping{background-color: #ffff; border: 0; margin: 0;}
+#Shipping span{color: #2f602f;}
+button{width: 100%; padding: 11px; background-color: #2f602f; border: 0; color: #ffff;}
+.expanded {height: 267px;}
+.expanded .show-full{display: block;}
+@media (max-width:400px){
+    #Shipping span{font-size:13px;}   
+}
